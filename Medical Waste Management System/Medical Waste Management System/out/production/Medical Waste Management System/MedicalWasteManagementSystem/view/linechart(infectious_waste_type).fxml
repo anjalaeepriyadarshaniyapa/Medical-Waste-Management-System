@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="627.0" prefWidth="1350.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MedicalWasteManagementSystem.controller.InfectiousWasteTypeLinechartController">
+<children>
+    <LineChart fx:id="lineChartInfectiousWaste" layoutX="323.0" layoutY="46.0" prefHeight="485.0" prefWidth="705.0" title="Line Chart (Infectious Waste)">
+        <xAxis>
+            <CategoryAxis animated="false" prefHeight="38.0" prefWidth="640.0" side="BOTTOM" startMargin="2.0" />
+        </xAxis>
+        <yAxis>
+            <NumberAxis animated="false" label="Waste per Day" side="LEFT" tickLabelGap="5.0" tickLength="10.0" />
+        </yAxis>
+    </LineChart>
+    <JFXButton fx:id="loadLineChart_btn" layoutX="601.0" layoutY="547.0" style="-fx-background-color: #f32f2f;" text="Load Line Chart" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></JFXButton>
+</children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="627.0" prefWidth="1350.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MedicalWasteManagementSystem.controller.InfectiousObjectTypePieChartController">
+<children>
+    <PieChart fx:id="pieChart" layoutX="364.0" layoutY="30.0" prefHeight="464.0" prefWidth="623.0" title="Pie Chart (Infectious Object)" />
+    <JFXButton fx:id="loadColorCode_btn" layoutX="574.0" layoutY="526.0" style="-fx-background-color: #f32f2f;" text="Load Color Code chart" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></JFXButton>
+</children>
+</AnchorPane>

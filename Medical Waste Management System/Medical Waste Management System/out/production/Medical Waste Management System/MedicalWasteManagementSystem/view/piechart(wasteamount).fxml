@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="627.0" prefWidth="1350.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MedicalWasteManagementSystem.controller.WasteAmountPieChartController">
+<children>
+    <PieChart fx:id="pieChart" layoutX="117.0" layoutY="38.0" prefHeight="554.0" prefWidth="654.0" title="Pie Chart (Amount of waste)" />
+    <JFXButton fx:id="loadChart_btn" layoutX="978.0" layoutY="499.0" style="-fx-background-color: #f32f2f;" text="Load  Chart" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font></JFXButton>
+      <Label fx:id="infectiousWasteLabel" layoutX="868.0" layoutY="217.0" prefHeight="42.0" prefWidth="344.0" />
+      <Label fx:id="nonInfectiousWasteLabel1" layoutX="868.0" layoutY="284.0" prefHeight="42.0" prefWidth="344.0" />
+</children>
+</AnchorPane>
